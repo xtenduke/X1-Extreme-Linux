@@ -1,0 +1,9 @@
+[Unit]
+Description = PowerManagement helper service
+
+[Service]
+WorkingDirectory= /usr/sbin 
+ExecStart= /usr/sbin/duke-powermanagement-helper.sh
+
+[Install]
+WantedBy=multi-user.target
