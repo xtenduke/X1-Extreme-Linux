@@ -24,3 +24,7 @@ systemctl start duke-powermanagement.service
 systemctl enable duke-powermanagement.service
 ```
 
+## Throttled
+Intel CPU undervolting with Throttled
+https://github.com/erpalma/throttled
+
